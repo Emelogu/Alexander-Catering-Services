@@ -1,0 +1,303 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding-bottom: 300px;
+    padding-top: 250px;
+    padding-left: 70px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+   
+}
+.topSection{
+    display: flex;
+}
+.bottomSection{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   align-items: center;
+   background-color: rgb(44, 41, 41);
+   padding: 15px;
+}
+
+.cartBtnContainer{
+    position: relative;
+}
+
+.profileBtnContainer{
+    position: relative;
+}
+
+.cartBtnContainer .tooltip, .profileBtnContainer .tooltip{
+    position: absolute;
+    background-color: rgb(194, 192, 192);
+    color: rgb(78, 58, 58);
+    bottom: -20px;
+    right: -4px;
+    padding: 2px;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.30s;
+    pointer-events: none;
+
+}
+.cartBtnContainer:hover .tooltip, .profileBtnContainer:hover .tooltip{
+    opacity: 1;
+
+}
+
+
+.homeImgCont{
+    display: flex;
+    flex-direction: row;
+    width: 1450px;
+    align-items: center;
+
+}
+
+.dishDesc{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.billSection{
+    display: flex;
+    flex: 1;
+    justify-content: start;
+}
+
+.dishMenuGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    column-gap: 10px;
+    row-gap: 40px;
+}
+
+.topText{
+    display:block;
+    text-align: center;
+    flex: 1;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(53, 53, 50);
+    color: rgb(201, 135, 13);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+
+.searchBox{
+    display: inline-block;
+    flex: 1;
+    max-width: 600px;
+    width: 600px;
+    margin-left: 5%;
+    margin-right: 25px;
+    padding: 18px;
+    border: 2px solid rgba(36, 35, 35, 0.62);
+    border: none;
+    box-shadow: inset 1px 1px 10px black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family:serif ;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.cartBtn{
+    margin-left: 30px;
+    flex: 1;
+    max-width: 100px;
+    width: 100px;
+    opacity: 1;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(8, 160, 45);
+    color: white;
+    transition: opacity 1s;
+}
+.cartBtn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.cartBtn:active{
+    cursor: progress;
+    opacity: 1;
+    
+}
+
+.badge{
+    position: absolute;
+    background-color: red;
+    top: -7px;
+    right: -7px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+    color: white;
+    border-radius: 8px; 
+}
+
+.profileBtn{
+    margin-left: 30px;
+    flex: 1;
+    max-width: 100px;
+    width: 100px;
+    height: 40px;
+    opacity: 1;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(15, 160, 55, 0.973);
+    transition: opacity 1s;
+}
+.profileBtn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.profileBtn:active{
+    cursor: progress;
+    opacity: 1;
+    
+}
+
+.filterBtn{
+    border: none;
+    background-color: rgb(44, 41, 41);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    width: 70px;
+    height: 30px;
+    margin-left: 12px;
+    font-weight: bold;
+    
+}
+.filterBtn:hover{
+    cursor: pointer;
+    padding-right: 5px;
+    padding-left: 5px ;
+    border-radius: 4px;
+    border: 2px;
+    background-color: rgba(121, 109, 109, 0.185);
+}
+.filterBtn:active{
+    cursor: progress;
+}
+
+.deliverytrackerBtn{
+    margin-left: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(44, 41, 41);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: 40px;
+}
+.deliverytrackerBtn:hover{
+    background-color:rgba(121, 109, 109, 0.185);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.deliverytrackerBtn:active{
+    cursor: progress;
+    width: 160px;
+}
+
+.homeImg{
+    display: inline-block;
+    height: 450px;
+    width: 650px;
+    margin-left: 300px;
+}
+.homeText{
+    display: inline-block;
+    line-height: 60px;
+    width: 300px;
+    margin-right: 300px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+
+}
+
+.dishImg{
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 170px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    transition: width 0.7s, opacity 0.7s;
+  
+}
+.dishImg:hover{
+    width: 190px;
+    opacity: 0.7;
+}
+
+.dishName{
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.priceListing{
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.orderBtn{
+    vertical-align: middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 56px;
+    margin-right: 9px;
+    border:none;
+    margin-top: 7px;
+    cursor: pointer;
+    background-color: rgb(128, 226, 31);
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.orderBtn:active{
+    cursor: progress;
+}
+.addBtn{
+    margin-left: 0px;
+    cursor: pointer;
+    margin-top: 7px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    background-color: rgb(128, 226, 31)
+}
