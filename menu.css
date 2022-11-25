@@ -67,12 +67,15 @@ body{
     display: inline-block;
     vertical-align: top;
     margin-bottom: 20px;
+    width: max-content;
+    height: 320px;
 }
 
 .billSection{
     display: flex;
     flex: 1;
     justify-content: start;
+    margin-right: 50px;
 }
 
 .dishMenuGrid{

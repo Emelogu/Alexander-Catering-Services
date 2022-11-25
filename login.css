@@ -1,0 +1,84 @@
+body{
+    padding: 500px;
+    background-color: rgb(85, 87, 87);
+}
+
+h3{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 1px;
+    border-radius: 7px;
+    background-color: rgb(66, 70, 70);
+    box-shadow: 4px 5px 9px rgb(49, 47, 47);
+    height: min-content;
+    width: min-content;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.email{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    padding-left: 7px;
+    border: none;
+}
+
+.password{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    padding-left: 7px;
+    border: none;
+}
+
+.login-btn{
+    display: block;
+    width: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(37, 39, 39);
+    color: white;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    opacity: 0.7;
+}
+
+.question-text{
+    color: white;
+}
+
+.linked-text{
+    text-decoration: underline;
+    color: rgb(95, 95, 204);
+    font-weight: 900;
+}
+
+.linked-text:hover{
+    cursor: pointer;
+}
+
+.linked.text:active{
+    cursor: progress;
+
+}
