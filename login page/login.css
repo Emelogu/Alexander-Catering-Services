@@ -11,12 +11,13 @@ h3{
     letter-spacing: 1px;
     font-size: 30px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .icon{
     position: absolute;
     color: rgb(102, 97, 97);
-    right: 15px;
+    right: 13px;
     top: 7px;
 }
 
@@ -42,6 +43,7 @@ h3{
     width: 250px;
     padding-left: 7px;
     border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .password-box{
@@ -55,6 +57,7 @@ h3{
     width: 250px;
     padding-left: 7px;
     border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .login-btn{
@@ -69,6 +72,7 @@ h3{
     background-color:rgb(37, 39, 39);
     color: white;
     cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .login-btn:hover{
