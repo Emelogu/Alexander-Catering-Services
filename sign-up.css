@@ -15,7 +15,7 @@ h3{
 
 .icon{
     position: absolute;
-    color: black;
+    color: rgb(102, 97, 97);
     right: 15px;
     top: 7px;
 }
@@ -74,6 +74,10 @@ h3{
     width: 250px;
     padding-left: 7px;
     border: none;
+}
+
+.con-password-box{
+    position: relative;
 }
 
 .con-password{
